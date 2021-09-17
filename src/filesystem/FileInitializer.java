@@ -5,7 +5,7 @@ import java.io.IOException;
 
 public class FileInitializer {
 
-    private String username = "david";
+    private String username = System.getProperty("user.name");
     private String path = "C:\\Users\\"+username+"\\Documents\\SudokuSolver\\src";
     private File alreadyShifted = new File(path+"\\shifted.txt");
 
