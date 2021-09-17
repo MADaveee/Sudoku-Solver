@@ -11,7 +11,7 @@ private final FileInitializer fileInitializer;
         shiftFiles();
     }
 
-    private final String username = "david";
+    private final String username = System.getProperty("user.name");
     private final String pathdest = "C:\\Users\\"+username+"\\Documents\\SudokuSolver\\src\\images";
     private final String pathsrc = "C:\\Users\\"+username+"\\Downloads\\Sudoku-Solver-Installer\\src\\images";
 
